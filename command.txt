@@ -1,0 +1,7 @@
+mongoimport --host best-for-you-vegowris.documents.azure.com:10255 \
+-u best-for-you-vegowris \
+-p l1D3Wx8OtWqfZNMu0W0NjWRcqMaQeFP2yIAIUSSJ4b1L45XH6BepsGdqXw5719vTGTdpWLUejGE12VuS5sZvjg== \
+--db best-for-you-organics \
+--collection orders \
+--ssl --sslAllowInvalidCertificates --type json \
+--file orders.json
